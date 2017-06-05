@@ -1,0 +1,74 @@
+﻿.s4-notdlg{
+	display:none;
+}
+
+#ms-designer-ribbon, #welcomeLink, #header, footer{
+  display:none;
+}
+
+.main-content {
+    border-left: 0px solid #fff;
+}
+
+#DeltaPlaceHolderMain::after {
+
+  content: "Public Service \00A9 - all rights reserved. Check our TERMS OF USE at: https://gov.mt/en/Pages/Terms-of-use.aspx"
+
+}
+
+@page {
+     margin: 2cm; 
+     @bottom-center { content: "Public Service Site" }
+     @top-right { content: counter(page) }
+}
+
+.section.main .container.a {
+	background-color: #fff;
+	float: none;
+}
+
+.section.main .container.a .column.a {
+	background-color: #EEEEEE;
+	width: 100%;
+	float: none;
+	display: table-footer-group;
+}
+
+.section.main .container.a .column.b {
+	background-color: #FFFFFF;
+	width: 100%;
+	float: none!important;
+	min-height: 324px;
+	display: table-header-group;
+}
+
+.sitebody {
+	background: none;
+}
+
+.section.main{
+	border: none;
+}
+
+.section.main .container.a .column.a .content .seperator{
+	display:none;
+}
+
+.section.main .container.a .column.a .content{
+	clear:both;
+}
+
+.section.main .container.a .column.a .content > div:first-child{
+	margin: 0px !important;	
+}
+
+.section.main .container.a .column.a .content > div{
+	float:left;
+	margin-top: 0px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+.section.main .container.a .column.a .content .section {
+	margin-top: 0px !important;
+}

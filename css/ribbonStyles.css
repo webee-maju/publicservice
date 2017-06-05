@@ -1,0 +1,278 @@
+﻿/*titles*/
+/*headings*/
+.ms-rtestate-field h1, h1.ms-rteElement-H1 {
+  -ms-name: "Heading 1";
+  -ms-element: "true";
+  max-width: 350px !important;
+  line-height: 40px !important;
+  margin-bottom: 24px !important;
+  font-size: 30px !important;
+  color: #9cb2be !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.ms-rtestate-field h2, h2.ms-rteElement-H2 {
+  -ms-name: "Heading 2";
+  -ms-element: "true";
+  max-width: 350px !important;
+  line-height: 30px !important;
+  margin-bottom: 20px !important;
+  font-size: 24px !important;
+  color: #9cb2be !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.ms-rtestate-field h3, h3.ms-rteElement-H3 {
+  -ms-name: "Heading 3";
+  -ms-element: "true";
+  max-width: 350px !important;
+  line-height: 24px !important;
+  margin-bottom: 18px !important;
+  font-size: 20px !important;
+  color: #9cb2be !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.ms-rtestate-field h4, h4.ms-rteElement-H4 {
+  -ms-name: "Heading 4";
+  -ms-element: "true";
+  max-width: 350px !important;
+  line-height: 20px !important;
+  margin-bottom: 16px !important;
+  font-size: 18px !important;
+  color: #9cb2be !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.ms-rtestate-field h1, h1.ms-rteElement-H1B {
+  -ms-name: "Heading 1 Alternate";
+  -ms-element: "true";
+  max-width: 350px !important;
+  line-height: 40px !important;
+  margin-bottom: 24px !important;
+  font-size: 30px !important;
+  color: #2b5462 !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.ms-rtestate-field h2, h2.ms-rteElement-H2B {
+  -ms-name: "Heading 2 Alternate";
+  -ms-element: "true";
+  max-width: 350px !important;
+  line-height: 30px !important;
+  margin-bottom: 20px !important;
+  font-size: 24px !important;
+  color: #2b5462 !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.ms-rtestate-field h3, h3.ms-rteElement-H3B {
+  -ms-name: "Heading 3 Alternate";
+  -ms-element: "true";
+  max-width: 350px !important;
+  line-height: 24px !important;
+  margin-bottom: 18px !important;
+  font-size: 20px !important;
+  color: #2b5462 !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.ms-rtestate-field h4, h4.ms-rteElement-H4B {
+  -ms-name: "Heading 4 Alternate";
+  -ms-element: "true";
+  max-width: 350px !important;
+  line-height: 20px !important;
+  margin-bottom: 16px !important;
+  font-size: 18px !important;
+  color: #2b5462 !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+P.ms-rteElement-P {
+  -ms-name: "Paragraph";
+  -ms-element: "true";
+  line-height: 1.6 !important;
+  margin-bottom: 1rem !important;
+  font-size: 12px !important;
+  color: #58595b !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+a.ms-rteElement-A {
+  -ms-name: "HyperLink";
+  -ms-element: "true";
+  color: #9cb2be !important;  
+}
+
+a.ms-rteElement-A:hover {
+  -ms-name: "HyperLink";
+  -ms-element: "true";
+  color: #2b5462 !important;  
+}
+
+.ms-rtestate-field a{
+  color:#9cb2be;
+}
+
+.ms-rtestate-field a:hover{
+  color:#2b5462;
+}
+
+/*.ms-rtestate-field p, p.ms-rteElement-P {
+  -ms-name: "Paragraph";
+  -ms-element: "true";
+}*/
+
+
+p.ms-rteElement-Number {
+  -ms-name: "Number Head";
+  font-size: 100px;
+  line-height: 45px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  min-height: 60px;
+  color: #9cb2be;
+  margin-bottom: 30px;
+}
+
+h6.ms-rteElement-NumberDesc {
+  -ms-name: "Number Head Desc";
+  text-transform: uppercase;
+  max-width: 125px;
+  color: #9cb2be;
+  margin-bottom: 57px;
+}
+
+/*text styles*/
+.ms-rteStyle-Subheading-Light {
+  -ms-name: "Subheading";
+  font-weight: bold;
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif !important;
+  color: #2b5462 !important;
+}
+
+.ms-rteStyle-Subheading-Dark {
+  -ms-name: "Subheading Dark";
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif !important;
+  color: #58595b !important;
+}
+
+.ms-rteStyle-Normal {
+  -ms-name: "Normal";
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif !important;
+  color: #58595b !important;
+}
+
+.ms-rteStyle-Quote {
+  -ms-name: "Quote";
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif !important;
+  font-style: italic;
+  color: #9cb2be !important;
+}
+
+  .ms-rteStyle-Quote:before {
+    content: open-quote;
+  }
+
+  .ms-rteStyle-Quote:after {
+    content: close-quote;
+  }
+
+.ms-rteStyle-IntenseQuote {
+  -ms-name: "Intense Quote";
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif !important;
+  font-style: italic;
+  text-decoration: none;
+  font-weight: 500;
+  color: #2b5462 !important;
+}
+
+  .ms-rteStyle-IntenseQuote:before {
+    content: open-quote;
+  }
+
+  .ms-rteStyle-IntenseQuote:after {
+    content: close-quote;
+  }
+
+.ms-rteStyle-Emphasis {
+  -ms-name: "Emphasis";
+  font-style: italic;
+  font-weight: 500;
+  color: #2b5462 !important;
+}
+
+.ms-rteStyle-IntenseEmphasis {
+  -ms-name: "Intense Emphasis";
+  font-style: italic;
+  font-weight: 500;
+  color: #9cb2be !important;
+}
+
+.ms-rteStyle-Accent1 {
+  -ms-name: "Accent 1";
+  color: #9cb2be !important;
+}
+
+.ms-rteStyle-Accent2 {
+  -ms-name: "Accent 2";
+  color: #2b5462 !important;
+}
+
+/*colors*/
+.ms-rteForeColor-11 {
+  color: #58595b;
+  -ms-name: "Design style";
+  -ms-color: "Text Gray";
+}
+
+.ms-rteForeColor-12 {
+  color: #2b5462;
+  -ms-name: "Design style";
+  -ms-color: "Dark Blue";
+}
+
+.ms-rteForeColor-13 {
+  color: #9cb2be;
+  -ms-name: "Design style";
+  -ms-color: "Neutral Gray";
+}
+
+/*Tables*/
+.ms-rteTable-default
+{
+-ms-name:"Default Table Style";
+color:#58595b
+}
+
+.ms-rteTable-default > tbody > tr > td,
+.ms-rteTable-default > tbody > tr > th{
+  
+  border-color: transparent;
+}
+
+
+.ms-rteTable-default > tbody > tr:nth-child(even){
+  background-color:#fff;
+}
+
+.ms-rteTable-default tr.ms-rteTableHeaderRow-default > th,
+.ms-rteTable-default > tbody > tr > th,
+.ms-rteTable-default > tbody > tr.ms-rteTableFooterRow-default{
+  color: #2b5462;
+  text-align:left;
+  font-weight:700;
+}
+
+.ms-rteTable-default tr.ms-rteTableHeaderRow-default > th,
+.ms-rteTable-default tr.ms-rteTableFooterRow-default > th,
+.ms-rteTable-default tr.ms-rteTableHeaderRow-default > td{
+  background-color:#fff;
+  border-color:transparent;
+}
